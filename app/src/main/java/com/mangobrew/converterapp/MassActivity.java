@@ -16,10 +16,10 @@ public class MassActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mass);
 
-        Button massActBtn = (Button) findViewById(R.id.massHome);
+        Button HomeBtn = (Button) findViewById(R.id.massHome);
         Button massCalc = (Button) findViewById(R.id.massCalc);
         Button massCalclb = (Button) findViewById(R.id.massCalclb);
-        massActBtn.setOnClickListener(new View.OnClickListener() {
+        HomeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MassActivity.this, HomeActivity.class));
